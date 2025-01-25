@@ -1,0 +1,45 @@
+/* PSD 2 HTML */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------
+01- Header
+-----------*/
+
+.mini-header{
+    height: 40px;
+    line-height: 40px;
+    color: #506a85;
+    font-size: 12px;
+    background: #f5f7fa ;
+}
+
+.header-contact span{
+    margin: 2px;
+}
+
+.social-icons ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+.social-icons li{
+    display: inline-block;
+}
+
+.social-icons li a{
+    color: #506a85;
+    margin: 0px 2px;
+    font-size: 14px;
+}
+
+.social-icons li a:hover, .social-icons li a:active, .social-icons li a:visited{
+    color: #3c5570;
+}
