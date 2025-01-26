@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
 /*-----------
 01- Header
 -----------*/
@@ -15,10 +19,11 @@
     color: #506a85;
     font-size: 12px;
     background: #f5f7fa ;
+    border-bottom: 1px solid #e6e9ed;
 }
 
-.header-contact span{
-    margin: 2px;
+.header-contact span:first-child{
+    margin-right: 25px;
 }
 
 .social-icons ul{
@@ -32,6 +37,10 @@
 
 .social-icons li{
     display: inline-block;
+    margin: 0px 10px;
+}
+.social-icons li:last-child{
+    margin-right: 0px;
 }
 
 .social-icons li a{
@@ -41,5 +50,44 @@
 }
 
 .social-icons li a:hover, .social-icons li a:active, .social-icons li a:visited{
+    color: #3c5570;
+}
+
+.main-header{
+    height: 112px;
+    border-bottom: 1px solid #e6e9ed ;
+    padding: 35px 0px;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.menu li:first-child{
+    margin: 0px 0px;
+}
+.menu li:last-child{
+   float: right;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    color: #506a85;
+    line-height: 40px;
+}
+
+.menu li a:hover, .menu li a:visited{
     color: #3c5570;
 }
