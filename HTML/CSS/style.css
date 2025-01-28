@@ -91,3 +91,33 @@ a:hover, a:visited, a:active{
 .menu li a:hover, .menu li a:visited{
     color: #3c5570;
 }
+
+/*-----------------
+02- Featured - Area
+------------------*/
+
+.featured-area{
+    height:560px;
+    background-color: #3c5570;
+}
+
+.featured-area-content{
+    color: white;
+    margin: 0px auto;
+    width: 960px;
+    max-width: 100%;
+    padding-top:175px ;
+}
+
+.featured-area h1{
+    display: block;
+    width: 100%;
+}
+
+.featured-button{
+    display: inline-block;
+}
+
+.featured-button a{
+    background-color: #00bc9c;
+}
