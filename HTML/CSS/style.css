@@ -97,7 +97,7 @@ a:hover, a:visited, a:active{
 ------------------*/
 
 .featured-area{
-    height:560px;
+    height:600px;
     background-color: #3c5570;
 }
 
@@ -106,18 +106,42 @@ a:hover, a:visited, a:active{
     margin: 0px auto;
     width: 960px;
     max-width: 100%;
-    padding-top:175px ;
+    padding-top:160px ;
 }
 
 .featured-area h1{
     display: block;
     width: 100%;
+    font-size: 78px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+
 }
 
+.content-text{
+    margin-bottom: 50px;
+}
+
+.featured-area-content p{
+    font-size: 24px;
+    color: #a3b1bf;
+}
 .featured-button{
     display: inline-block;
 }
-
 .featured-button a{
+    display: inline-block;
     background-color: #00bc9c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #00bc9c;
+    padding: 25px 70px;
+    color: white;
+
 }
+
+
+
