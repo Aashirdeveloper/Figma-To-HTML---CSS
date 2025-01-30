@@ -74,7 +74,7 @@ a:hover, a:visited, a:active{
     margin: 0px 20px;
 }
 .menu li:first-child{
-    margin: 0px 0px;
+    margin-left:  0px;
 }
 .menu li:last-child{
    float: right;
@@ -144,6 +144,74 @@ a:hover, a:visited, a:active{
     color: white;
 
 }
+
+.featured-button a:hover{
+    background-color: #0a8974;
+    border-bottom: 2px solid #0a8974;
+}
+
+/*-----------------
+03- Services - Area
+------------------*/
+
+.services{
+    padding: 125px 0px;
+    text-align: center;
+}
+
+.services-content-container{
+    width: 820px;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.services-head h2{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 42px;
+    font-weight: bold;
+    color: #506a85;
+    margin-top: 0px;
+    margin-bottom: 35px;
+
+}
+
+.services-head p{
+    display: block;
+    font-size: 21px;
+    color: #73879c;
+    text-align: center; 
+}
+
+.services-content{
+    margin-top: 60px;
+}
+
+.service-icon{
+    font-size: 56px;
+    color: #00bc9c;
+    margin-top: 0px;
+}
+.service-text{
+    margin-top: 15px;
+}
+.service-text h3{
+    color: #506a85;
+    font-size: 26px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.service-text p{
+    color: #73879c;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
 
 
 
