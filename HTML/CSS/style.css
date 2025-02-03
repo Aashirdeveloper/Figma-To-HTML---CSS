@@ -282,3 +282,7 @@ a:active {
     color: #73879c;
     font-size: 14px;
 }
+
+.carousel-row{
+    margin-top: 80px;
+}
