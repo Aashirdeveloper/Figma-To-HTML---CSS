@@ -114,7 +114,7 @@ a:active {
 .featured-area-content {
     color: white;
     margin: 0px auto;
-    width: 960px;
+    width: 9600px;
     max-width: 100%;
     padding-top: 160px;
 }
@@ -285,4 +285,26 @@ a:active {
 
 .carousel-row{
     margin-top: 80px;
+}
+
+
+.owl-dots{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.owl-dots button{
+    border-radius: 50%;
+    border: 6px solid #506a85 !important;
+    
+
+    display: inline-block;
+    margin: 0px 4px;
+}
+
+.owl-dots button.active{
+    
+    border: 6px solid #00bc9c!important;
+    
 }
