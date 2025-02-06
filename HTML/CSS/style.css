@@ -100,6 +100,19 @@ a:active {
     color: #3c5570;
 }
 
+.menu-toggle {
+    
+    display: none;
+    
+    
+}
+.toggle{
+    display: none;
+}
+
+
+
+
 /*-----------------
 02- Featured - Area
 ------------------*/
@@ -308,9 +321,8 @@ a:active {
 
 }
 
-.toggle {
-    display: none;
-}
+
+
 
 
 
@@ -326,7 +338,8 @@ Responsiveness
     .menu li {
         width: 100%;
         margin: 0px;
-
+        border-bottom: 1px solid #3f556c;
+        padding: 10px 0px;
     }
 
     .menu ul li a {
@@ -334,8 +347,11 @@ Responsiveness
         text-align: center;
         display: inline-block;
         width: 100%;
+        
 
     }
+
+    
 
     .menu {
         background-color: #506a85;
@@ -380,6 +396,58 @@ Responsiveness
         top: 24px;
         color: #506a85;
         font-size: 40px;
+        display: block;
+        
+        
     }
+
+    .menu-toggle :visited, .menu-toggle:active{
+        color:#506a85; ;
+    }
+
+    .featured-area{
+        height: 450px;
+    }
+.featured-area-content{
+    padding: 120px 0px;
+}
+
+    .featured-area-content h1{
+        font-size: 30px;
+    }
+    .featured-area-content p{
+        font-size: 18px;
+    }
+
+    .featured-button a {
+
+        padding: 15px 50px;
+        font-size: 15px;
+    
+    }
+    .services{
+        padding: 90px 0px;
+    }
+
+    .services-content h3{
+        text-align: center;
+    }
+    .services-content p{
+        text-align: center;
+    }
+
+    .post-col :first-child{
+        margin-bottom: 15px;
+    }
+    .home-posts{
+        padding-top: 70px;
+    }
+    .services{
+        padding-bottom: 45px;
+    }
+    .services-content{
+        margin-top: 35px;
+    }
+    
 
 }
