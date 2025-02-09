@@ -377,6 +377,40 @@ a:active {
 }
 
 
+/*-----------------
+06 - Footer
+------------------*/
+
+.main-footer{
+    padding: 125px 0px;
+    background-color: #2f4052;
+    text-align: left;
+}
+
+.footer-reen h3 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer-reen p{
+    color: #a3b1bf;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-reen a{
+    text-decoration: none;
+    color:#a3b1bf ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-reen a i{
+    
+    color:#a3b1bf ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 
 
 
