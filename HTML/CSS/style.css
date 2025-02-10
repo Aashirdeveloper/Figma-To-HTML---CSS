@@ -382,17 +382,26 @@ a:active {
 ------------------*/
 
 .main-footer{
-    padding: 125px 0px;
+    padding: 115px 0px;
     background-color: #2f4052;
-    text-align: left;
+    
+
 }
 
-.footer-reen h3 {
+.footer-content{
+    display: block;
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.main-footer h3{
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
-.footer-reen p{
+
+.main-footer p{
     color: #a3b1bf;
     font-size: 15px;
     line-height: 25px;
@@ -405,10 +414,46 @@ a:active {
     font-weight: bold;
 }
 .footer-reen a i{
-    
-    color:#a3b1bf ;
     font-weight: bold;
     font-size: 16px;
+}
+
+.footer-latest h3 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.img-col :first-child{
+    margin-right: 3px;
+}
+.first-row{
+    margin-bottom: 6px;
+}
+
+.footer-touch h3 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.footer-touch p{
+    color: #a3b1bf;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-touch a{
+    text-decoration: none;
+    color:#a3b1bf ;
+    font-size: 16px;
+}
+
+.footer-touch a i{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
 }
 
 
